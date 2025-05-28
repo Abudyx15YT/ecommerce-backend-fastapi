@@ -1,6 +1,6 @@
 # 🛒 FastAPI E-commerce API
 
-A modern, high-performance e-commerce REST API built with FastAPI, featuring user authentication, product management, shopping cart functionality, and order processing.
+A comprehensive, production-ready e-commerce REST API built with FastAPI that provides complete online shopping functionality. This API serves as a robust backend solution for e-commerce applications, featuring secure user authentication, comprehensive product management, intelligent shopping cart operations, streamlined order processing, and integrated review systems. Designed with modern Python best practices, it offers high performance, automatic API documentation, and scalable architecture suitable for both small businesses and enterprise-level applications.
 
 ---
 
