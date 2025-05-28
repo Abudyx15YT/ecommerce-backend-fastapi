@@ -94,39 +94,52 @@ ReDoc: http://127.0.0.1:8000/redoc
 
 ## 📁 Project Structure
 
-app/
-├── main.py              # FastAPI app initialization
-├── config.py            # Configuration settings
-├── database.py          # Database connection
-├── models/              # SQLAlchemy models
-│   ├── __init__.py
-│   ├── user.py
-│   ├── product.py
-│   ├── cart.py
-│   ├── order.py
-│   └── review.py
-├── schemas/             # Pydantic schemas
-│   ├── __init__.py
-│   ├── users.py
-│   ├── product.py
-│   ├── cart.py
-│   ├── order.py
-│   └── review.py
-├── routers/             # API routes
-│   ├── __init__.py
-│   ├── users.py
-│   ├── products.py
-│   ├── carts.py
-│   ├── orders.py
-│   └── reviews.py
-├── auth/                # Authentication logic
-│   ├── __init__.py
-│   └── jwt_handler.py
-└── utils/               # Utility functions
-    ├── __init__.py
-    └── helpers.py
+```bash
 
+E-COMMERCE/
+├── app/
+│ ├── auth/ # Handles authentication (JWT)
+│ │ ├── init.py
+│ │ ├── jwt_bearer.py # Defines JWTBearer dependency for protected routes
+│ │ ├── jwt_handler.py # Creates and decodes JWT tokens
+│ ├── crud/ # All CRUD operations for each module
+│ │ ├── init.py
+│ │ ├── carts.py
+│ │ ├── orders.py
+│ │ ├── products.py
+│ │ ├── reviews.py
+│ │ ├── users.py
+│ ├── models/ # SQLAlchemy models for DB tables
+│ │ ├── init.py
+│ │ ├── cart.py
+│ │ ├── order.py
+│ │ ├── product.py
+│ │ ├── review.py
+│ │ ├── user.py
+│ ├── routers/ # API endpoints/route definitions
+│ │ ├── init.py
+│ │ ├── carts.py
+│ │ ├── orders.py
+│ │ ├── products.py
+│ │ ├── reviews.py
+│ │ ├── users.py
+│ ├── schemas/ # Pydantic schemas for request/response validation
+│ │ ├── init.py
+│ │ ├── cart.py
+│ │ ├── order.py
+│ │ ├── product.py
+│ │ ├── review.py
+│ │ ├── users.py
+│ ├── init.py
+│ ├── config.py # Configuration and settings (e.g., secret key, DB URL)
+│ ├── database.py # DB connection using SQLAlchemy
+│ ├── main.py # FastAPI app entry point
+├── ecomerce.db # SQLite database file (can be replaced with other DB)
+├── README.md # Project documentation
+├── requirements.txt # Python dependencies
+└── venv/ # Python virtual environment (optional - not pushed to Git)
 
+```
 ---
 
 ## 🔗 API Endpoints
