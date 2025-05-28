@@ -179,7 +179,8 @@ If you have any questions or need help:
 
 - 📖 Check the documentation
 - 🐞 Open an issue
-- 📬 Contact: your-email@example.com
+- 📬 Contact: trimalrao2004@gmail.com  
+
 
 ---
 
@@ -201,7 +202,7 @@ If you have any questions or need help:
 Your Name  
 GitHub: [Ktrimalrao](https://github.com/Ktrimalrao)  
 Email: trimalrao2004@gmail.com  
-LinkedIn: [K Trimal Rao](www.linkedin.com/in/k-trimal-rao-397924253)  
+LinkedIn: [K Trimal Rao](https://www.linkedin.com/in/k-trimal-rao-397924253)  
 
 ---
 
